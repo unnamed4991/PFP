@@ -1,0 +1,6 @@
+echo "Name of new project: "
+read filename;
+mkdir $filename;
+cp bin/main.ps $filename/;
+cp bin/car $filename/;
+cp bin/README $filename/;
